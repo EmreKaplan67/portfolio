@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
      */
     function createGalleryItem(imageData) {
         const item = document.createElement('div');
-        item.className = 'gallery-item';
+        item.className = 'gallery-item loading';
         item.dataset.id = imageData.id;
         
         // Create image element
@@ -25,6 +25,18 @@ document.addEventListener('DOMContentLoaded', function() {
         img.src = imageData.path;
         img.alt = imageData.title;
         img.loading = 'lazy';
+        
+        // Handle image loading
+        img.onload = function() {
+            item.classList.remove('loading');
+            img.classList.add('loaded');
+        };
+        
+        img.onerror = function() {
+            item.classList.remove('loading');
+            item.classList.add('error');
+            img.src = 'assets/gallery-placeholder.jpg'; // Add a placeholder image
+        };
         
         // Create info overlay
         const info = document.createElement('div');
