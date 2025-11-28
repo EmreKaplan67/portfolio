@@ -1,0 +1,91 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "BattleShip Game",
+      "description": "A modern, interactive implementation of the classic Battleship naval strategy game built with vanilla JavaScript, HTML, and CSS.",
+      "image": "./assets/projects/battleship.png",
+      "tech": ["HTML", "CSS", "JavaScript", "Jest", "Webpack" ],
+      "liveUrl": "https://battleship-odin2.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/battleship-odin"
+    },
+    {
+      "id": 2,
+      "title": "Knight Travails",
+      "description":  "A JavaScript implementation that finds the shortest path for a knight on a chessboard using Breadth-First Search (BFS), with an interactive web visualization.",
+      "image": "./assets/projects/knighttravails.png",
+      "tech": ["HTML", "CSS", "JavaScript", "Jest"],
+      "liveUrl": "https://knighttravails2.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/knight-travails-odin"
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "This is a clean and modern weather application that provides real-time weather information and a 10-day forecast for any location.",
+      "image": "./assets/projects/weatherapp.png",
+      "tech": ["HTML", "CSS", "JavaScript", "API Integration", "Webpack"],
+      "liveUrl": "https://weather-app-odin-6.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/weather-app-odin"
+    },
+    {
+      "id": 4,
+      "title": "Simple Todo App",
+      "description": "This is a simple todo app that allows users to add, remove, and mark tasks as completed.",
+      "image": "./assets/projects/todosimple.png",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "githubUrl": "https://github.com/EmreKaplan67/todo-app-odin"
+    },
+    {
+      "id": 5,
+      "title": "Restaurant Dashboard",
+      "description": "Odin Restaurant is a modern, responsive website showcasing a Nordic-inspired restaurant. The project demonstrates dynamic content generation with JavaScript modules and Webpack for bundling",
+      "image": "./assets/projects/restaurant.png",
+      "tech": ["HTML", "CSS", "JavaScript", "Webpack"],
+      "githubUrl": "https://github.com/EmreKaplan67/odin-restaurant-webpack"
+    },
+    {
+      "id": 6,
+      "title": "Tic Tac Toe",
+      "description": "A modular, factory-based Tic-Tac-Toe game built with JavaScript, HTML, and CSS. This version uses IIFE modules, factories, and event delegation",
+      "image": "./assets/projects/tictactoe.png",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "liveUrl": "https://tictactoe-odin2.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/odin-tic-tac-toe"
+    },
+    {
+      "id": 7,
+      "title": "Admin Dashboard",
+      "description": "A modern admin dashboard built with HTML and CSS Grid/Flexbox. This project demonstrates clean layout design and component organization for a user management interface.",
+      "image": "./assets/projects/dashboard.png",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "githubUrl": "https://github.com/EmreKaplan67/admin-dashboard-odin"
+    },
+    {
+      "id": 8,
+      "title": "Movie App",
+      "description": "A modern, responsive movie application that showcases trending movies using React and Tailwind CSS. This application fetches real-time movie data from The Movie Database (TMDB) API",
+      "image": "./assets/projects/movieapp.png",
+      "tech": ["HTML", "CSS", "JavaScript", "React19", "Vite", "TailwindCSS", "API Integration", "Appwrite"],
+      "liveUrl": "https://movieapp213.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/Movie-App-React-TailwindCSS"
+    },
+    {
+      "id": 9,
+      "title": "Nike Clone",
+      "description": "A modern and responsive e-commerce website inspired by Nike's official website, built with React and Tailwind CSS.",
+      "image": "./assets/projects/nikeclone.png",
+      "tech": ["HTML", "CSS", "JavaScript", "React19","Vite", "TailwindCSS"],
+      "liveUrl": "https://nike-clone213.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/nike-clone-react-tailwind"
+    },
+    {
+      "id": 10,
+      "title": "Thinkboard - Todo MERN version",
+      "description": "Thinkboard is a full-stack note-taking application built with the MERN stack (MongoDB, Express.js, React, Node.js). It features user authentication, real-time note creation, editing, and deletion, with a clean and responsive user interface.",
+      "image": "./assets/projects/thinkboard.png",
+      "tech": ["HTML", "CSS", "JavaScript", "React19", "JWT", "ExpressJS", "NodeJS", "MongoDB", "Redis", "Upstash Rate Limiting", "DaisyUI"],
+      "liveUrl": "https://mern-thinkboard213.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/mern-thinkboard"
+    }
+  ]
+}

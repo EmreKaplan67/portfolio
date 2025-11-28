@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "title": "Lough Tay",
+      "description": "Lough Tay (Irish: Loch Té) is a small but scenic lake set in the Wicklow Mountains in Ireland. The nickname, 'The Guinness Lake' name comes from the former owners of the land. The lake is part of the former Guinness estate, owned by Arthur Guinness. Lough Tay is the setting for the fictional village of Kattegat in the 2013 television historical drama series Vikings.",
+      "path": "assets/gallery/lough-tay.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Kuzguncuk Houses",
+      "description": "Kuzguncuk is a neighbourhood in the municipality and district of Üsküdar, Istanbul Province, Turkey. It is a quiet neighborhood with streets lined with antique Ottoman wooden houses.",
+      "path": "assets/gallery/kuzguncuk.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bosphorus Bridge",
+      "description": "The Bosphorus Bridge is the oldest and southernmost of the three suspension bridges spanning the Bosphorus strait (Turkish: Boğaziçi) in Istanbul, Turkey, thus connecting Europe and Asia (alongside the Fatih Sultan Mehmet Bridge and Yavuz Sultan Selim Bridge).",
+      "path": "assets/gallery/bosphorus.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Çamlıca Hill",
+      "description": "Çamlıca Hill is a hill in the Üsküdar district of the Asian side of Istanbul, Turkey. At 288 m (945 ft) above sea level, Çamlıca Hill offers a panoramic view of the southern part of Bosphorus and the mouth of the Golden Horn.",
+      "path": "assets/gallery/camlica.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Galata Tower",
+      "description": "The Galata Tower is a medieval stone tower that has watched over Istanbul since the 14th century, originally built by the Genoese as part of their fortifications. Rising high above the Galata district, it served as a lookout point, fire tower, and even an early aviation site in Ottoman times. The tower is tied to the famous story of Hezarfen Ahmed Çelebi, who is said to have flown from its top using handmade wings. Today, Galata Tower offers panoramic views of the city and remains one of Istanbul’s most beloved landmarks.",
+      "path": "assets/gallery/galata-tower.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Maiden's Tower",
+      "description": "The Maiden’s Tower (Kız Kulesi) is a centuries-old landmark standing on a small islet at the entrance of the Bosphorus in Istanbul. First built in antiquity and later rebuilt by the Byzantines and Ottomans, it has served as a lighthouse, watchtower, and quarantine station throughout its long history. The tower is surrounded by legends, most famously the tale of a princess sheltered here from a tragic prophecy. Today, it remains one of Istanbul’s most iconic symbols, offering striking views of the city’s skyline.",
+      "path": "assets/gallery/maidens-tower.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Haydarpaşa Railway",
+      "description": "Haydarpaşa Railway Station, built in the early 20th century by German architects, stands as one of Istanbul’s grandest transportation landmarks on the Asian shore of the city. Designed in a striking neo-classical style, it served for decades as the gateway to Anatolia and the Middle East. The station has endured fires, wars, and restorations, becoming a symbol of Istanbul’s modern era and its cultural crossroads. Today, it remains an iconic waterfront monument, admired for its historic architecture and dramatic presence on the Bosphorus",
+      "path": "assets/gallery/haydarpasa.jpg"
+    }
+  ]
+}

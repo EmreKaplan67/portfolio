@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Emre Kaplan</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">🏠</a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link" target="_blank">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="theme-toggle" id="theme-toggle">
+              <span class="theme-icon">🌙</span>
+            </button>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm Emre Kaplan</h1>
+        <p class="hero-subtitle animate-slide-up">
+          Full Stack Developer | Problem Solver | Tech Enthusiast
+        </p>
+        <div class="hero-buttons animate-slide-up-delay">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title animate-fade-in">About Me</h2>
+        <div class="about-content">
+          <div class="about-image animate-fade-in-left">
+            <img src="assets/profile.jpeg" alt="Profile Picture" />
+          </div>
+          <div class="about-text animate-fade-in-right">
+            <p>
+              I’m a full-stack web developer with a background in hospitality
+              management. I bring strong problem-solving skills, attention to
+              detail, and experience working in high-pressure environments. I’m
+              passionate about building reliable, user-centered digital
+              solutions.
+            </p>
+            <p>
+              I left hospitality management to fully chase my dream of a
+              career in tech, ready to apply the same dedication, leadership,
+              and drive that made me successful behind the bar to building great
+              software.
+            </p>
+            <div class="skills">
+              <h3>Technical Skills</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">TailwindCSS</span>
+                <span class="skill-tag">ExpressJS</span>
+                <span class="skill-tag">NextJS</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">Splitting the G</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects will be dynamically loaded here -->
+        </div>
+        <div class="load-more-container">
+          <button id="load-more-projects" class="btn btn-primary">Load More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in hearing about new opportunities and
+              exciting projects. Feel free to reach out through any of the
+              platforms below!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span>emrekaplan96@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">💼</span>
+                <a
+                  href="https://linkedin.com/in/emre-kaplan-b91396139/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-link"
+                  >LinkedIn Profile</a
+                >
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">🐙</span>
+                <a
+                  href="https://github.com/EmreKaplan67"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-link"
+                  >GitHub Profile</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="current-year"></span> Emre Kaplan. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/navbar.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/projects.js"></script>
+  </body>
+</html>
