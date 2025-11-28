@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Emre Kaplan</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">🏠</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link" target="_blank">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 404 Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="error-404 animate-fade-in">
+                <div class="error-emoji animate-bounce">🦊</div>
+                <h1 class="error-title animate-fade-in">404</h1>
+                <p class="error-message animate-fade-in">
+                    Oops! This little fox seems to have lost its way.<br>
+                    The page you're looking for doesn't exist.
+                </p>
+                <div class="error-buttons animate-fade-in-delay">
+                    <a href="index.html" class="btn btn-primary">🏠 Go Home</a>
+                    <a href="index.html#projects" class="btn btn-secondary">💼 View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Emre Kaplan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/navbar.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/animations.js"></script>
+
+    <style>
+        .error-404 {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .error-emoji {
+            font-size: 6rem;
+            margin-bottom: 2rem;
+            animation-delay: 0.2s;
+        }
+
+        .error-title {
+            font-size: 8rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            animation-delay: 0.4s;
+        }
+
+        .error-message {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+            animation-delay: 0.6s;
+        }
+
+        .error-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation-delay: 0.8s;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .animate-bounce {
+            animation: bounce 2s infinite;
+        }
+
+        @media (max-width: 768px) {
+            .error-emoji {
+                font-size: 4rem;
+            }
+            
+            .error-title {
+                font-size: 5rem;
+            }
+            
+            .error-message {
+                font-size: 1rem;
+            }
+            
+            .error-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 200px;
+                text-align: center;
+            }
+        }
+    </style>
+</body>
+</html>
