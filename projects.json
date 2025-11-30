@@ -86,6 +86,15 @@
       "tech": ["HTML", "CSS", "JavaScript", "React19", "JWT", "ExpressJS", "NodeJS", "MongoDB", "Redis", "Upstash Rate Limiting", "DaisyUI"],
       "liveUrl": "https://mern-thinkboard213.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/mern-thinkboard"
+    },
+    {
+      "id": 11,
+      "title": "CV-Builder with React",
+      "description": "A modern, interactive CV builder built with React and Vite. Create professional resumes with real-time preview, intuitive form inputs, and a clean, responsive design.",
+      "image": "./assets/projects/cvBuilder.png",
+      "tech": ["HTML", "CSS", "JavaScript", "React19", "Vite", "TailwindCSS", "Lucide Icons"],
+      "liveUrl": "https://cv-builder-odin2.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/cv-builder"
     }
   ]
 }
