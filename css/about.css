@@ -94,12 +94,6 @@
     background-color: var(--surface-color);
     border-radius: 15px;
     border: 1px solid var(--border-color);
-    transition: all 0.3s ease;
-}
-
-.skills:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--card-shadow);
 }
 
 .skills h3 {
@@ -138,33 +132,9 @@
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 600;
-    transition: all 0.3s ease;
     cursor: default;
     position: relative;
     overflow: hidden;
-}
-
-.skill-tag::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    transition: width 0.6s, height 0.6s;
-}
-
-.skill-tag:hover::before {
-    width: 100px;
-    height: 100px;
-}
-
-.skill-tag:hover {
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 8px 16px rgba(99, 102, 241, 0.3);
 }
 
 /* Responsive Design for About Section */

@@ -119,18 +119,6 @@ document.addEventListener('DOMContentLoaded', function() {
      * Enhances user interaction with subtle animations
      */
     function addHoverAnimations() {
-        // Animate buttons on hover
-        const buttons = document.querySelectorAll('.btn');
-        buttons.forEach(button => {
-            button.addEventListener('mouseenter', function() {
-                this.classList.add('animate-scale-in');
-            });
-            
-            button.addEventListener('mouseleave', function() {
-                this.classList.remove('animate-scale-in');
-            });
-        });
-        
         // Animate project cards on hover
         const projectCards = document.querySelectorAll('.project-card');
         projectCards.forEach(card => {

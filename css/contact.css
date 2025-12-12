@@ -72,12 +72,18 @@
     padding: 1rem 2rem;
     background-color: var(--surface-color);
     border-radius: 10px;
-    transition: all 0.3s ease;
     border: 1px solid var(--border-color);
     width: 100%;
     max-width: 400px;
     justify-content: center;
     cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+a.contact-item {
+    text-decoration: none;
+    color: var(--text-primary);
 }
 
 .contact-item:hover {
@@ -105,26 +111,6 @@
     transition: all 0.3s ease;
     position: relative;
     cursor: pointer;
-}
-
-.contact-item .contact-link:hover {
-    color: var(--primary-color);
-    text-decoration: none !important;
-}
-
-.contact-item .contact-link::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--primary-color);
-    transition: width 0.3s ease;
-}
-
-.contact-item .contact-link:hover::after {
-    width: 100%;
 }
 
 /* Social Links - Centered */

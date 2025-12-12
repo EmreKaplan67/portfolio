@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let imagesLoaded = 0;
     const imagesPerLoad = 6;
     let allImages = [];
+    let currentImageIndex = -1;
     
     /**
      * Create gallery item HTML element
@@ -141,11 +142,17 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
+        // Find current image index
+        currentImageIndex = allImages.findIndex(img => img.id === imageData.id);
+        
         // Set lightbox content
         lightboxImage.src = imageData.path;
         lightboxImage.alt = imageData.title;
         lightboxTitle.textContent = imageData.title;
         lightboxDescription.textContent = imageData.description;
+        
+        // Update arrow button visibility
+        updateArrowButtons();
         
         // Show lightbox
         lightbox.classList.add('active');
@@ -171,12 +178,52 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     /**
+     * Navigate to previous image
+     */
+    function showPreviousImage() {
+        if (currentImageIndex > 0) {
+            currentImageIndex--;
+            openLightbox(allImages[currentImageIndex]);
+        }
+    }
+    
+    /**
+     * Navigate to next image
+     */
+    function showNextImage() {
+        if (currentImageIndex < allImages.length - 1) {
+            currentImageIndex++;
+            openLightbox(allImages[currentImageIndex]);
+        }
+    }
+    
+    /**
+     * Update arrow button visibility based on current position
+     */
+    function updateArrowButtons() {
+        const prevBtn = document.getElementById('lightbox-prev');
+        const nextBtn = document.getElementById('lightbox-next');
+        
+        if (prevBtn) {
+            prevBtn.style.display = currentImageIndex > 0 ? 'block' : 'none';
+        }
+        
+        if (nextBtn) {
+            nextBtn.style.display = currentImageIndex < allImages.length - 1 ? 'block' : 'none';
+        }
+    }
+    
+    /**
      * Handle keyboard events for lightbox
      * @param {KeyboardEvent} e - Keyboard event
      */
     function handleLightboxKeydown(e) {
         if (e.key === 'Escape') {
             closeLightbox();
+        } else if (e.key === 'ArrowLeft') {
+            showPreviousImage();
+        } else if (e.key === 'ArrowRight') {
+            showNextImage();
         }
     }
     
@@ -208,6 +255,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (e.target === lightbox) {
                     closeLightbox();
                 }
+            });
+        }
+        
+        // Setup arrow navigation buttons
+        const prevBtn = document.getElementById('lightbox-prev');
+        const nextBtn = document.getElementById('lightbox-next');
+        
+        if (prevBtn) {
+            prevBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                showPreviousImage();
+            });
+        }
+        
+        if (nextBtn) {
+            nextBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                showNextImage();
             });
         }
         
