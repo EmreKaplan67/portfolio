@@ -101,7 +101,7 @@
       "title": "Shopping Cart",
       "description": "A modern React shopping cart application built with React Router v6.30+ featuring data loaders, nested routes, and comprehensive error handling.",
       "image": "./assets/projects/shoppingcart.png",
-      "tech": ["HTML", "CSS", "JavaScript", "React", "Vitest", "React Router v6.30+", "PropTypes", "TailwindCSS"],
+      "tech": ["HTML", "CSS", "JavaScript", "React", "Vitest", "React Router v6.30+", "PropTypes"],
       "liveUrl": "https://shopping-cart-odin2.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/shopping-cart-odin"
     }

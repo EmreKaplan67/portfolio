@@ -81,11 +81,6 @@
     transition: all 0.3s ease;
 }
 
-.project-card:hover .project-image img {
-    transform: scale(1.1);
-    filter: brightness(0.8);
-}
-
 /* Image Overlay Effect */
 .project-image::after {
     content: '';
