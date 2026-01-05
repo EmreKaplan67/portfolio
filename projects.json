@@ -65,7 +65,7 @@
       "title": "Movie App",
       "description": "A modern, responsive movie application that showcases trending movies using React and Tailwind CSS. This application fetches real-time movie data from The Movie Database (TMDB) API",
       "image": "./assets/projects/movieapp.png",
-      "tech": ["HTML", "CSS", "JavaScript", "React19", "Vite", "TailwindCSS", "API Integration", "Appwrite"],
+      "tech": ["React19", "Vite", "TailwindCSS", "API Integration", "Appwrite"],
       "liveUrl": "https://movieapp213.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/Movie-App-React-TailwindCSS"
     },
@@ -74,7 +74,7 @@
       "title": "Nike Clone",
       "description": "A modern and responsive e-commerce website inspired by Nike's official website, built with React and Tailwind CSS.",
       "image": "./assets/projects/nikeclone.png",
-      "tech": ["HTML", "CSS", "JavaScript", "React19","Vite", "TailwindCSS"],
+      "tech": ["React19", "Vite", "TailwindCSS"],
       "liveUrl": "https://nike-clone213.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/nike-clone-react-tailwind"
     },
@@ -83,7 +83,7 @@
       "title": "Thinkboard - Todo MERN version",
       "description": "Thinkboard is a full-stack note-taking application built with the MERN stack (MongoDB, Express.js, React, Node.js). It features user authentication, real-time note creation, editing, and deletion, with a clean and responsive user interface.",
       "image": "./assets/projects/thinkboard.png",
-      "tech": ["HTML", "CSS", "JavaScript", "React19", "JWT", "ExpressJS", "NodeJS", "MongoDB", "Redis", "Upstash Rate Limiting", "DaisyUI"],
+      "tech": ["React19", "JWT", "ExpressJS", "NodeJS", "MongoDB", "Redis", "Upstash Rate Limiting", "DaisyUI"],
       "liveUrl": "https://mern-thinkboard213.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/mern-thinkboard"
     },
@@ -92,7 +92,7 @@
       "title": "CV-Builder with React",
       "description": "A modern, interactive CV builder built with React and Vite. Create professional resumes with real-time preview, intuitive form inputs, and a clean, responsive design.",
       "image": "./assets/projects/cvBuilder.png",
-      "tech": ["HTML", "CSS", "JavaScript", "React19", "Vite", "TailwindCSS", "Lucide Icons"],
+      "tech": ["React19", "Vite", "TailwindCSS", "Lucide Icons"],
       "liveUrl": "https://cv-builder-odin2.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/cv-builder"
     },
@@ -101,9 +101,18 @@
       "title": "Shopping Cart",
       "description": "A modern React shopping cart application built with React Router v6.30+ featuring data loaders, nested routes, and comprehensive error handling.",
       "image": "./assets/projects/shoppingcart.png",
-      "tech": ["HTML", "CSS", "JavaScript", "React", "Vitest", "React Router v6.30+", "PropTypes"],
+      "tech": ["React", "Vitest", "React Router v6.30+", "PropTypes"],
       "liveUrl": "https://shopping-cart-odin2.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/shopping-cart-odin"
+    },
+    {
+      "id": 13,
+      "title": "Shopping Cart v2",
+      "description": "A modern , performant e-commerce product browsing app built with React, featuring advanced State Management, and Server Side Data Fetching / Server State Management, and a fully functional shopping cart.",
+      "image": "./assets/projects/shoppingcartv2.png",
+      "tech": ["React", "TailwindCSS", "Vite", "Zustand", "TanStack Query"],
+      "liveUrl": "https://amazing-shopping2.netlify.app/",
+      "githubUrl": "https://github.com/EmreKaplan67/shopping-cart-v2"
     }
   ]
 }
