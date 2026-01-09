@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const heroTitle = document.querySelector('.hero-title');
         if (!heroTitle) return;
         
-        const originalText = "Hi, I'm Emre Kaplan";
+        const originalText = "Hello, world! It's Emre here.";
         heroTitle.textContent = '';
         heroTitle.classList.add('typing-animation');
         
