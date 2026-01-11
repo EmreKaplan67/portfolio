@@ -109,6 +109,8 @@
     color: var(--text-primary);
     margin-bottom: 0.75rem;
     transition: color 0.3s ease;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .project-card:hover .project-content h3 {
@@ -120,6 +122,8 @@
     line-height: 1.5;
     margin-bottom: 1rem;
     font-size: 0.9rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Technology Stack Tags */

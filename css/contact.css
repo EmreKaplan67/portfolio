@@ -161,14 +161,20 @@ a.contact-item {
 @media (max-width: 768px) {
     .contact-info h3 {
         font-size: 1.5rem;
+        padding: 0 10px;
     }
     
     .contact-info p {
         font-size: 1rem;
+        padding: 0 10px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .contact-item {
         padding: 0.75rem 1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .social-links {
@@ -183,6 +189,14 @@ a.contact-item {
 }
 
 @media (max-width: 480px) {
+    .contact-info h3 {
+        font-size: 1.3rem;
+    }
+    
+    .contact-info p {
+        font-size: 0.95rem;
+    }
+    
     .contact-item {
         padding: 0.75rem;
         flex-direction: column;

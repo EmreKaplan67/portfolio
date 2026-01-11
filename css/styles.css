@@ -50,6 +50,8 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Container */
@@ -126,12 +128,18 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
 .hero-subtitle {
     font-size: 1.25rem;
     color: var(--text-secondary);
     margin-bottom: 2rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
 
 .hero-buttons {
@@ -228,14 +236,17 @@ section {
 @media (max-width: 768px) {
     .section-title {
         font-size: 2rem;
+        padding: 0 10px;
     }
     
     .hero-title {
         font-size: 2.5rem;
+        padding: 0 10px;
     }
     
     .hero-subtitle {
         font-size: 1rem;
+        padding: 0 10px;
     }
     
     section {
@@ -245,6 +256,7 @@ section {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        padding: 0 10px;
     }
     
     .btn {
@@ -259,11 +271,17 @@ section {
     }
     
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+        line-height: 1.4;
     }
     
     .section-title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
     
     section {
