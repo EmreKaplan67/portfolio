@@ -80,15 +80,6 @@
     },
     {
       "id": 10,
-      "title": "Thinkboard - Todo MERN version",
-      "description": "Thinkboard is a full-stack note-taking application built with the MERN stack (MongoDB, Express.js, React, Node.js). It features user authentication, real-time note creation, editing, and deletion, with a clean and responsive user interface.",
-      "image": "./assets/projects/thinkboard.png",
-      "tech": ["React19", "JWT", "ExpressJS", "NodeJS", "MongoDB", "Redis", "Upstash Rate Limiting", "DaisyUI"],
-      "liveUrl": "https://mern-thinkboard213.netlify.app/",
-      "githubUrl": "https://github.com/EmreKaplan67/mern-thinkboard"
-    },
-    {
-      "id": 11,
       "title": "CV-Builder with React",
       "description": "A modern, interactive CV builder built with React and Vite. Create professional resumes with real-time preview, intuitive form inputs, and a clean, responsive design.",
       "image": "./assets/projects/cvBuilder.png",
@@ -97,7 +88,7 @@
       "githubUrl": "https://github.com/EmreKaplan67/cv-builder"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Shopping Cart",
       "description": "A modern React shopping cart application built with React Router v6.30+ featuring data loaders, nested routes, and comprehensive error handling.",
       "image": "./assets/projects/shoppingcart.png",
@@ -106,7 +97,7 @@
       "githubUrl": "https://github.com/EmreKaplan67/shopping-cart-odin"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Shopping Cart v2",
       "description": "A modern , performant e-commerce product browsing app built with React, featuring advanced State Management, and Server Side Data Fetching / Server State Management, and a fully functional shopping cart.",
       "image": "./assets/projects/shoppingcartv2.png",
