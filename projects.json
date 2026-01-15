@@ -109,7 +109,7 @@
       "id": 13,
       "title": "Todo React Hook Form",
       "description": "A simple and modern course goals management application built with React, TypeScript, and Vite.",
-      "image": "./assets/projects/todo-rhf",
+      "image": "./assets/projects/todo-rhf.png",
       "tech": ["React", "React Hook Form", "TypeScript", "Vite"],
       "liveUrl": "https://react-hook-form-ts.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/rhf-todo-app"
