@@ -113,6 +113,14 @@
       "tech": ["React", "React Hook Form", "TypeScript", "Vite"],
       "liveUrl": "https://react-hook-form-ts.netlify.app/",
       "githubUrl": "https://github.com/EmreKaplan67/rhf-todo-app"
+    },
+    {
+      "id": 14,
+      "title": "E-Commerce NextJS",
+      "description": "A modern, responsive e-commerce application built with NextJS, TailwindCSS, Prisma, PostgreSQL, and Stripe.",
+      "image": "./assets/projects/e-commerce.png",
+      "tech": ["NextJS", "React", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL", "Resend Email Servive", "Stripe", "ShadCn", "Lucide Icons"],
+      "githubUrl": "https://github.com/EmreKaplan67/e-commerce-nextjs.git"
     }
   ]
 }
