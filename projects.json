@@ -121,6 +121,15 @@
       "image": "./assets/projects/e-commerce.png",
       "tech": ["NextJS", "React", "TypeScript", "TailwindCSS", "Prisma", "PostgreSQL", "Resend Email Servive", "Stripe", "ShadCn", "Lucide Icons"],
       "githubUrl": "https://github.com/EmreKaplan67/e-commerce-nextjs.git"
+    },
+    {
+      "id": 15,
+      "title": "PubRoster Beta",
+      "description": "A lightweight roster app for hospitality teams. Create weekly schedules, assign shifts, and publish rosters by email or download as PDF. No enterprise bloat—just the essentials.",
+      "image": "./assets/projects/pubroster.png",
+      "tech": ["NextJS", "React", "TypeScript", "TailwindCSS", "PostgreSQL", "Supabase", "Prisma", "Zod", "BetterAuth", "Resend Email Service", "Shadcn UI", "Lucide Icons", "@dnd-kit for drag and drop"],
+      "liveUrl": "https://pubroster.com/",
+      "githubUrl": "https://github.com/EmreKaplan67/pubroster-hospitality-management"
     }
   ]
 }
